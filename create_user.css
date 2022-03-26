@@ -1,0 +1,147 @@
+
+body {
+    background-color:#eaeaf3;
+    margin:0;
+
+}
+
+#header{
+  padding-top:3px;
+  padding-left: 5px;
+  background-color: #00b5ad;
+}
+
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  font-size: 1.2em;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.header-nav-item {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+}
+
+.logo img {
+  height: 60px;
+}
+
+.header-button {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 0.5em 1.2em;
+  font-size: 12px;
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+}
+
+.header-text{
+    color:#fff;
+    font-size: 13 px;
+}
+
+.header-explain {
+  color: #fff;
+}
+
+.header-login {
+  font-weight: bold;
+  color: #00b5ad;
+  background: #FFF;
+  border: 1px #FFF solid;
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 480px) {
+  .header-post {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+span {
+    font-size:15px;
+    margin:0px;
+    
+}
+
+
+.fieldset-text{
+    text-align: center;
+    padding-top: 3%;;
+    margin-top:5%;
+    margin-left:auto;
+    margin-right: auto;
+    border:none;    
+    width:600px;
+    background-color:#FFFFFF;
+    color:#696969;
+}
+
+
+.mail{
+    display: inline-block;
+    text-align: left;
+    width: 70%;
+    margin-left: 20%;
+}
+
+.password   {
+    display: inline-block;
+    text-align: left;
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 4%;
+}
+
+
+
+
+input {
+    border: solid 1px #a9a9a9;
+    width: 70%;
+    border-radius:5px;
+}
+
+.create_user{
+    text-align: center;
+    margin-top:5%;
+}
+
+.create_user a{
+    color:#a9a9a9;   
+    font-size: 50%;
+}
+
+
+button{
+  font-weight: bold;
+  color: #fff;
+  background: #00b5ad;
+  border: 1px #00b5ad solid;
+  border-radius: 3px;
+  margin: 5%;
+}
