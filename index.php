@@ -2168,7 +2168,7 @@ foreach ($result_good as $record_good) {
     </script>
 
   <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrYfry0_IEKBi63iR4h6wbGwTc0DILykU&callback=initMap&v=weekly"
+      src="https://maps.googleapis.com/maps/api/js?key=【key】&callback=initMap&v=weekly"
       async>
   </script>
 
